@@ -1,0 +1,11 @@
+order.correlationOrder^|^order.associatedDocument^|^order.associatedDocumentDate^|^order.type^|^order.infraType^|^order.customer^|^order.appointment^|^order.addresses^|^order.products^|^order.equipments^|^order.issue^|^order.orderItem^|^order.task.code^|^order.task.description^|^order.task.updateDate^|^order.task.action
+123456^|^DOC123^|^2022-01-01^|^Type1^|^Infra1^|^Customer1^|^2022-01-10^|^Address1^|^Product1^|^Equip1^|^Issue1^|^OrderItem1^|^TaskCode1^|^TaskDesc1^|^2022-01-02^|^Action1
+234567^|^DOC234^|^2022-02-01^|^Type2^|^Infra2^|^Customer2^|^2022-02-10^|^Address2^|^Product2^|^Equip2^|^Issue2^|^OrderItem2^|^TaskCode2^|^TaskDesc2^|^2022-02-02^|^Action2
+345678^|^DOC345^|^2022-03-01^|^Type3^|^Infra3^|^Customer3^|^2022-03-10^|^Address3^|^Product3^|^Equip3^|^Issue3^|^OrderItem3^|^TaskCode3^|^TaskDesc3^|^2022-03-02^|^Action3
+456789^|^DOC456^|^2022-04-01^|^Type4^|^Infra4^|^Customer4^|^2022-04-10^|^Address4^|^Product4^|^Equip4^|^Issue4^|^OrderItem4^|^TaskCode4^|^TaskDesc4^|^2022-04-02^|^Action4
+567890^|^DOC567^|^2022-05-01^|^Type5^|^Infra5^|^Customer5^|^2022-05-10^|^Address5^|^Product5^|^Equip5^|^Issue5^|^OrderItem5^|^TaskCode5^|^TaskDesc5^|^2022-05-02^|^Action5
+678901^|^DOC678^|^2022-06-01^|^Type6^|^Infra6^|^Customer6^|^2022-06-10^|^Address6^|^Product6^|^Equip6^|^Issue6^|^OrderItem6^|^TaskCode6^|^TaskDesc6^|^2022-06-02^|^Action6
+789012^|^DOC789^|^2022-07-01^|^Type7^|^Infra7^|^Customer7^|^2022-07-10^|^Address7^|^Product7^|^Equip7^|^Issue7^|^OrderItem7^|^TaskCode7^|^TaskDesc7^|^2022-07-02^|^Action7
+890123^|^DOC890^|^2022-08-01^|^Type8^|^Infra8^|^Customer8^|^2022-08-10^|^Address8^|^Product8^|^Equip8^|^Issue8^|^OrderItem8^|^TaskCode8^|^TaskDesc8^|^2022-08-02^|^Action8
+901234^|^DOC901^|^2022-09-01^|^Type9^|^Infra9^|^Customer9^|^2022-09-10^|^Address9^|^Product9^|^Equip9^|^Issue9^|^OrderItem9^|^TaskCode9^|^TaskDesc9^|^2022-09-02^|^Action9
+012345^|^DOC012^|^2022-10-01^|^Type10^|^Infra10^|^Customer10^|^2022-10-10^|^Address10^|^Product10^|^Equip10^|^Issue10^|^OrderItem10^|^TaskCode10^|^TaskDesc10^|^2022-10-02^|^Action10
