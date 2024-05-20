@@ -1,0 +1,11 @@
+notification^|^date^|^customer^|^subscriberId^|^order^|^id^|^correlationOrder^|^associatedDocument^|^issue^|^type^|^code^|^description^|^lostEquipment^|^resource^|^AdditionalCSVvaluInfo^|^statusCode
+notify1^|^2021-06-14^|^John Doe^|^12345^|^order1^|^111^|^order1^|^doc1^|^issue1^|^type1^|^code1^|^desc1^|^eq1^|^res1^|^addInfo1^|^200
+notify2^|^2021-06-15^|^Jane Doe^|^67890^|^order2^|^222^|^order2^|^doc2^|^issue2^|^type2^|^code2^|^desc2^|^eq2^|^res2^|^addInfo2^|^201
+notify3^|^2021-06-16^|^Jim Doe^|^11223^|^order3^|^333^|^order3^|^doc3^|^issue3^|^type3^|^code3^|^desc3^|^eq3^|^res3^|^addInfo3^|^202
+notify4^|^2021-06-17^|^Jack Doe^|^44556^|^order4^|^444^|^order4^|^doc4^|^issue4^|^type4^|^code4^|^desc4^|^eq4^|^res4^|^addInfo4^|^203
+notify5^|^2021-06-18^|^Jill Doe^|^77889^|^order5^|^555^|^order5^|^doc5^|^issue5^|^type5^|^code5^|^desc5^|^eq5^|^res5^|^addInfo5^|^204
+notify6^|^2021-06-19^|^Joe Doe^|^99001^|^order6^|^666^|^order6^|^doc6^|^issue6^|^type6^|^code6^|^desc6^|^eq6^|^res6^|^addInfo6^|^205
+notify7^|^2021-06-20^|^Jerry Doe^|^22334^|^order7^|^777^|^order7^|^doc7^|^issue7^|^type7^|^code7^|^desc7^|^eq7^|^res7^|^addInfo7^|^206
+notify8^|^2021-06-21^|^Jessie Doe^|^55667^|^order8^|^888^|^order8^|^doc8^|^issue8^|^type8^|^code8^|^desc8^|^eq8^|^res8^|^addInfo8^|^207
+notify9^|^2021-06-22^|^Jimmy Doe^|^88990^|^order9^|^999^|^order9^|^doc9^|^issue9^|^type9^|^code9^|^desc9^|^eq9^|^res9^|^addInfo9^|^208
+notify10^|^2021-06-23^|^Jasmine Doe^|^00112^|^order10^|^1010^|^order10^|^doc10^|^issue10^|^type10^|^code10^|^desc10^|^eq10^|^res10^|^addInfo10^|^209
