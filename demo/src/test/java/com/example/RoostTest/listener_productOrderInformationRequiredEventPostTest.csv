@@ -1,0 +1,11 @@
+notification.date^|^customer.subscriberId^|^order.id^|^order.correlationOrder^|^order.associatedDocument^|^order.issue^|^order.type^|^order.code^|^order.description^|^order.lostEquipment^|^order.resource
+2022-10-01^|^SUB12345^|^ORD001^|^COR001^|^DOC001^|^Issue1^|^Type1^|^Code1^|^Description1^|^Equipment1^|^Resource1
+2022-10-02^|^SUB12346^|^ORD002^|^COR002^|^DOC002^|^Issue2^|^Type2^|^Code2^|^Description2^|^Equipment2^|^Resource2
+2022-10-03^|^SUB12347^|^ORD003^|^COR003^|^DOC003^|^Issue3^|^Type3^|^Code3^|^Description3^|^Equipment3^|^Resource3
+2022-10-04^|^SUB12348^|^ORD004^|^COR004^|^DOC004^|^Issue4^|^Type4^|^Code4^|^Description4^|^Equipment4^|^Resource4
+2022-10-05^|^SUB12349^|^ORD005^|^COR005^|^DOC005^|^Issue5^|^Type5^|^Code5^|^Description5^|^Equipment5^|^Resource5
+2022-10-06^|^SUB12350^|^ORD006^|^COR006^|^DOC006^|^Issue6^|^Type6^|^Code6^|^Description6^|^Equipment6^|^Resource6
+2022-10-07^|^SUB12351^|^ORD007^|^COR007^|^DOC007^|^Issue7^|^Type7^|^Code7^|^Description7^|^Equipment7^|^Resource7
+2022-10-08^|^SUB12352^|^ORD008^|^COR008^|^DOC008^|^Issue8^|^Type8^|^Code8^|^Description8^|^Equipment8^|^Resource8
+2022-10-09^|^SUB12353^|^ORD009^|^COR009^|^DOC009^|^Issue9^|^Type9^|^Code9^|^Description9^|^Equipment9^|^Resource9
+2022-10-10^|^SUB12354^|^ORD010^|^COR010^|^DOC010^|^Issue10^|^Type10^|^Code10^|^Description10^|^Equipment10^|^Resource10
