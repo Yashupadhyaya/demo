@@ -1,0 +1,11 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^https://api.example.com/users^|^Content-Type:application/json^|^{}^|^200^|^{"message":"Success"}
+POST^|^https://api.example.com/users^|^Content-Type:application/json^|^{"name":"John","email":"john@example.com"}^|^201^|^{"message":"User created successfully"}
+PUT^|^https://api.example.com/users/123^|^Content-Type:application/json^|^{"name":"John Updated","email":"johnupdated@example.com"}^|^200^|^{"message":"User updated successfully"}
+DELETE^|^https://api.example.com/users/123^|^Content-Type:application/json^|^{}^|^204^|^{"message":"User deleted successfully"}
+GET^|^https://api.example.com/products^|^Content-Type:application/json^|^{}^|^200^|^{"message":"Success"}
+POST^|^https://api.example.com/products^|^Content-Type:application/json^|^{"name":"Product 1","price":"99.99"}^|^201^|^{"message":"Product created successfully"}
+PUT^|^https://api.example.com/products/456^|^Content-Type:application/json^|^{"name":"Product 1 Updated","price":"89.99"}^|^200^|^{"message":"Product updated successfully"}
+DELETE^|^https://api.example.com/products/456^|^Content-Type:application/json^|^{}^|^204^|^{"message":"Product deleted successfully"}
+GET^|^https://api.example.com/orders^|^Content-Type:application/json^|^{}^|^200^|^{"message":"Success"}
+POST^|^https://api.example.com/orders^|^Content-Type:application/json^|^{"productId":"456","userId":"123"}^|^201^|^{"message":"Order created successfully"}
