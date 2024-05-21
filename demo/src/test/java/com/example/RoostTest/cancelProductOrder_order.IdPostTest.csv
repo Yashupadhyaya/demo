@@ -1,0 +1,11 @@
+order.Id^|^AdditionalCSVvaluInfo^|^requestBody^|^statusCode
+ORD001^|^20230315000001^|^{"order": {}, "associatedDocument": "VTT001", "customer": {}, "subscriberId": "SVTAL001"}^|^200
+ORD002^|^20230315000002^|^{"order": {}, "associatedDocument": "VTT002", "customer": {}, "subscriberId": "SVTAL002"}^|^400
+ORD003^|^20230315000003^|^{"order": {}, "associatedDocument": "VTT003", "customer": {}, "subscriberId": "SVTAL003"}^|^401
+ORD004^|^20230315000004^|^{"order": {}, "associatedDocument": "VTT004", "customer": {}, "subscriberId": "SVTAL004"}^|^403
+ORD005^|^20230315000005^|^{"order": {}, "associatedDocument": "VTT005", "customer": {}, "subscriberId": "SVTAL005"}^|^404
+ORD006^|^20230315000006^|^{"order": {}, "associatedDocument": "VTT006", "customer": {}, "subscriberId": "SVTAL006"}^|^406
+ORD007^|^20230315000007^|^{"order": {}, "associatedDocument": "VTT007", "customer": {}, "subscriberId": "SVTAL007"}^|^423
+ORD008^|^20230315000008^|^{"order": {}, "associatedDocument": "VTT008", "customer": {}, "subscriberId": "SVTAL008"}^|^429
+ORD009^|^20230315000009^|^{"order": {}, "associatedDocument": "VTT009", "customer": {}, "subscriberId": "SVTAL009"}^|^500
+ORD010^|^20230315000010^|^{"order": {}, "associatedDocument": "VTT010", "customer": {}, "subscriberId": "SVTAL010"}^|^503
