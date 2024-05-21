@@ -1,0 +1,11 @@
+requestBody^|^StatusCodes
+{"name": "John Doe", "age": 30, "email": "johndoe@example.com"}^|^201
+{"name": "Jane Doe", "age": 25, "email": "janedoe@example.com"}^|^400
+{"name": "Mike Smith", "age": 35, "email": "mikesmith@example.com"}^|^401
+{"name": "Emma Jones", "age": 32, "email": "emmajones@example.com"}^|^403
+{"name": "Robert Johnson", "age": 40, "email": "robertjohnson@example.com"}^|^404
+{"name": "James Brown", "age": 45, "email": "jamesbrown@example.com"}^|^406
+{"name": "Patricia Williams", "age": 50, "email": "patriciawilliams@example.com"}^|^429
+{"name": "Jennifer Taylor", "age": 55, "email": "jennifertaylor@example.com"}^|^500
+{"name": "Linda Thomas", "age": 60, "email": "lindathomas@example.com"}^|^503
+{"name": "Elizabeth Jackson", "age": 65, "email": "elizabethjackson@example.com"}^|^504
