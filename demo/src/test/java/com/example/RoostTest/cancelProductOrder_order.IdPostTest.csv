@@ -1,0 +1,11 @@
+RequestBody^|^StatusCodes
+{"order":{"associatedDocument":"DOC123","customer":{"subscriberId":"SUB456"}}}^|^200
+{"order":{"associatedDocument":"DOC124","customer":{"subscriberId":"SUB457"}}}^|^404
+{"order":{"associatedDocument":"DOC125","customer":{"subscriberId":"SUB458"}}}^|^503
+{"order":{"associatedDocument":"DOC126","customer":{"subscriberId":"SUB459"}}}^|^401
+{"order":{"associatedDocument":"DOC127","customer":{"subscriberId":"SUB460"}}}^|^403
+{"order":{"associatedDocument":"DOC128","customer":{"subscriberId":"SUB461"}}}^|^400
+{"order":{"associatedDocument":"DOC129","customer":{"subscriberId":"SUB462"}}}^|^406
+{"order":{"associatedDocument":"DOC130","customer":{"subscriberId":"SUB463"}}}^|^423
+{"order":{"associatedDocument":"DOC131","customer":{"subscriberId":"SUB464"}}}^|^429
+{"order":{"associatedDocument":"DOC132","customer":{"subscriberId":"SUB465"}}}^|^500
