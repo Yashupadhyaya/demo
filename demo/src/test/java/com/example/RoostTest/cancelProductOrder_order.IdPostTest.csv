@@ -1,0 +1,11 @@
+order.Id^|^METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+ORD001^|^POST^|^https://api.example.com/endpoint1^|^Authorization: Bearer token1^|^{"key1":"value1"}^|^200^|^{"message":"Success"}
+ORD002^|^GET^|^https://api.example.com/endpoint2^|^Authorization: Bearer token2^|^{}^|^404^|^{"error":"Not Found"}
+ORD003^|^PUT^|^https://api.example.com/endpoint3^|^Authorization: Bearer token3^|^{"key2":"value2"}^|^500^|^{"error":"Internal Server Error"}
+ORD004^|^DELETE^|^https://api.example.com/endpoint4^|^Authorization: Bearer token4^|^{}^|^200^|^{"message":"Deleted Successfully"}
+ORD005^|^POST^|^https://api.example.com/endpoint5^|^Authorization: Bearer token5^|^{"key3":"value3"}^|^201^|^{"message":"Created Successfully"}
+ORD006^|^GET^|^https://api.example.com/endpoint6^|^Authorization: Bearer token6^|^{}^|^400^|^{"error":"Bad Request"}
+ORD007^|^PUT^|^https://api.example.com/endpoint7^|^Authorization: Bearer token7^|^{"key4":"value4"}^|^403^|^{"error":"Forbidden"}
+ORD008^|^DELETE^|^https://api.example.com/endpoint8^|^Authorization: Bearer token8^|^{}^|^200^|^{"message":"Deleted Successfully"}
+ORD009^|^POST^|^https://api.example.com/endpoint9^|^Authorization: Bearer token9^|^{"key5":"value5"}^|^201^|^{"message":"Created Successfully"}
+ORD010^|^GET^|^https://api.example.com/endpoint10^|^Authorization: Bearer token10^|^{}^|^404^|^{"error":"Not Found"}
