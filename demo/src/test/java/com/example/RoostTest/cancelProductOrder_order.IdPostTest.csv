@@ -1,0 +1,11 @@
+Parameters^|^RequestBody^|^StatusCodes
+order1^|^{"order":{"associatedDocument":"doc1","customer":{"subscriberId":"sub1"}}}^|^200
+order2^|^{"order":{"associatedDocument":"doc2","customer":{"subscriberId":"sub2"}}}^|^400
+order3^|^{"order":{"associatedDocument":"doc3","customer":{"subscriberId":"sub3"}}}^|^401
+order4^|^{"order":{"associatedDocument":"doc4","customer":{"subscriberId":"sub4"}}}^|^403
+order5^|^{"order":{"associatedDocument":"doc5","customer":{"subscriberId":"sub5"}}}^|^404
+order6^|^{"order":{"associatedDocument":"doc6","customer":{"subscriberId":"sub6"}}}^|^406
+order7^|^{"order":{"associatedDocument":"doc7","customer":{"subscriberId":"sub7"}}}^|^423
+order8^|^{"order":{"associatedDocument":"doc8","customer":{"subscriberId":"sub8"}}}^|^429
+order9^|^{"order":{"associatedDocument":"doc9","customer":{"subscriberId":"sub9"}}}^|^500
+order10^|^{"order":{"associatedDocument":"doc10","customer":{"subscriberId":"sub10"}}}^|^503
