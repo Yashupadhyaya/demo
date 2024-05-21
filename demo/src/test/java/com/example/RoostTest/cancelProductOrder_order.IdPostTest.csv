@@ -1,0 +1,11 @@
+order.Id^|^AdditionalCSVvaluInfo^|^requestBody^|^statusCode
+ID123^|^20230315000001^|^{"order": {"type": "object"}, "associatedDocument": "Document1", "customer": {"type": "object"}, "subscriberId": "Sub123"}^|^200
+ID124^|^20230315000002^|^{"order": {"type": "object"}, "associatedDocument": "Document2", "customer": {"type": "object"}, "subscriberId": "Sub124"}^|^400
+ID125^|^20230315000003^|^{"order": {"type": "object"}, "associatedDocument": "Document3", "customer": {"type": "object"}, "subscriberId": "Sub125"}^|^401
+ID126^|^20230315000004^|^{"order": {"type": "object"}, "associatedDocument": "Document4", "customer": {"type": "object"}, "subscriberId": "Sub126"}^|^403
+ID127^|^20230315000005^|^{"order": {"type": "object"}, "associatedDocument": "Document5", "customer": {"type": "object"}, "subscriberId": "Sub127"}^|^404
+ID128^|^20230315000006^|^{"order": {"type": "object"}, "associatedDocument": "Document6", "customer": {"type": "object"}, "subscriberId": "Sub128"}^|^406
+ID129^|^20230315000007^|^{"order": {"type": "object"}, "associatedDocument": "Document7", "customer": {"type": "object"}, "subscriberId": "Sub129"}^|^423
+ID130^|^20230315000008^|^{"order": {"type": "object"}, "associatedDocument": "Document8", "customer": {"type": "object"}, "subscriberId": "Sub130"}^|^429
+ID131^|^20230315000009^|^{"order": {"type": "object"}, "associatedDocument": "Document9", "customer": {"type": "object"}, "subscriberId": "Sub131"}^|^500
+ID132^|^20230315000010^|^{"order": {"type": "object"}, "associatedDocument": "Document10", "customer": {"type": "object"}, "subscriberId": "Sub132"}^|^503
