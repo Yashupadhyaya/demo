@@ -1,0 +1,11 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^https://api.example.com/users^|^{"Content-Type": "application/json"}^|^{}^|^200^|^{"message":"success","data":{"users":[{"id":1,"name":"John Doe"},{"id":2,"name":"Jane Doe"}]}}
+POST^|^https://api.example.com/users^|^{"Content-Type": "application/json"}^|^{"name":"New User"}^|^201^|^{"message":"User created successfully","data":{"id":3,"name":"New User"}}
+PUT^|^https://api.example.com/users/3^|^{"Content-Type": "application/json"}^|^{"name":"Updated User"}^|^200^|^{"message":"User updated successfully","data":{"id":3,"name":"Updated User"}}
+DELETE^|^https://api.example.com/users/3^|^{"Content-Type": "application/json"}^|^{}^|^204^|^{"message":"User deleted successfully"}
+GET^|^https://api.example.com/posts^|^{"Content-Type": "application/json"}^|^{}^|^200^|^{"message":"success","data":{"posts":[{"id":1,"title":"Post 1"},{"id":2,"title":"Post 2"}]}}
+POST^|^https://api.example.com/posts^|^{"Content-Type": "application/json"}^|^{"title":"New Post"}^|^201^|^{"message":"Post created successfully","data":{"id":3,"title":"New Post"}}
+PUT^|^https://api.example.com/posts/3^|^{"Content-Type": "application/json"}^|^{"title":"Updated Post"}^|^200^|^{"message":"Post updated successfully","data":{"id":3,"title":"Updated Post"}}
+DELETE^|^https://api.example.com/posts/3^|^{"Content-Type": "application/json"}^|^{}^|^204^|^{"message":"Post deleted successfully"}
+GET^|^https://api.example.com/comments^|^{"Content-Type": "application/json"}^|^{}^|^200^|^{"message":"success","data":{"comments":[{"id":1,"text":"Comment 1"},{"id":2,"text":"Comment 2"}]}}
+POST^|^https://api.example.com/comments^|^{"Content-Type": "application/json"}^|^{"text":"New Comment"}^|^201^|^{"message":"Comment created successfully","data":{"id":3,"text":"New Comment"}}
