@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"id":1,"name":"John","email":"john@example.com"}^|^201
+{"id":2,"name":"Jane","email":"jane@example.com"}^|^400
+{"id":3,"name":"Bob","email":"bob@example.com"}^|^401
+{"id":4,"name":"Alice","email":"alice@example.com"}^|^403
+{"id":5,"name":"Charlie","email":"charlie@example.com"}^|^404
+{"id":6,"name":"David","email":"david@example.com"}^|^406
+{"id":7,"name":"Eve","email":"eve@example.com"}^|^429
+{"id":8,"name":"Frank","email":"frank@example.com"}^|^500
+{"id":9,"name":"Grace","email":"grace@example.com"}^|^503
+{"id":10,"name":"Helen","email":"helen@example.com"}^|^504
