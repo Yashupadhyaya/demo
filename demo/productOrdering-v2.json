@@ -26,6 +26,18 @@
         ],
         "summary": "Request Opening Order",
         "operationId": "Request Opening Order",
+        "parameters": [
+          {
+            "name": "x-request-id",
+            "in": "header",
+            "required" : true
+          },
+          {
+            "name": "x-service-host",
+            "in": "header",
+            "required" : true
+          }
+        ],
         "requestBody": {
           "content": {
             "application/json": {
@@ -1795,6 +1807,13 @@
     }
   },
   "components": {
+    "securitySchemes" :{
+      "usernameHeader": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-Username"
+      }
+    },
     "schemas": {
       "control": {
         "type": "object",
