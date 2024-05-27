@@ -2812,8 +2812,42 @@
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/control"
-            },
+            "control": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "Tipo da mensagem de retorno. (S - Sucesso, T - Erro Técnico, E - Erro)",
+                  "enum": [
+                    "S",
+                    "T",
+                    "E"
+                  ],
+                  "maxLength": 1
+                },
+                "message": {
+                    "type": "object",
+                    "properties": {
+                      "yash": {
+                        "type": "string",
+                        "description": "Tipo da mensagem de retorno. (S - Sucesso, T - Erro Técnico, E - Erro)",
+                        "enum": [
+                          "S",
+                          "T",
+                          "E"
+                        ],
+                        "maxLength": 1
+                      }
+                   } 
+                },
+                "code": {
+                  "type": "string",
+                  "description": "Código de Retorno.",
+                  "maxLength": 3
+                }
+              }
+            }
+          },
             "example": {
               "control": {
                 "type": "S",
