@@ -1,0 +1,7 @@
+date,subscriberId,id,correlationOrder,associatedDocument,code,description,type,observation,updateDate,action,task,fieldActivity,reason,lostEquipment,gponAccess,device,item,statusCode,scenario
+2021-06-09,SVTAL001,1,10,VTT001,1234,"Order completed","Instalacao","Order completed successfully",2021-06-10,"Installation Order",NULL,NULL,NULL,NULL,NULL,NULL,NULL,204,"Operação realizada com sucesso"
+2021-06-09,SVTAL001,2,10,VTT001,1234,"Invalid request","Instalacao","Invalid parameters",2021-06-10,"Installation Order",NULL,NULL,NULL,NULL,NULL,NULL,NULL,400,"BadRequest"
+2021-06-09,SVTAL001,3,10,VTT001,1234,"Unauthorized access","Instalacao","Access denied",2021-06-10,"Installation Order",NULL,NULL,NULL,NULL,NULL,NULL,NULL,401,"Unauthorized"
+2021-06-09,SVTAL001,4,10,VTT001,1234,"Server error","Instalacao","Internal server error",2021-06-10,"Installation Order",NULL,NULL,NULL,NULL,NULL,NULL,NULL,500,"ServerError"
+2021-06-09,SVTAL001,5,10,VTT001,1234,"Service unavailable","Instalacao","Service temporarily down",2021-06-10,"Installation Order",NULL,NULL,NULL,NULL,NULL,NULL,NULL,503,"Unavailable"
+2021-06-09,SVTAL001,6,10,VTT001,1234,"Request timeout","Instalacao","Request took too long",2021-06-10,"Installation Order",NULL,NULL,NULL,NULL,NULL,NULL,NULL,504,"Timeout"
