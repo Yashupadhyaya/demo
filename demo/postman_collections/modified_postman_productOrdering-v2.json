@@ -1,0 +1,403 @@
+{
+  "item": [
+    {
+      "id": "7a9af58a-8345-49cc-b293-1b3764171118",
+      "name": "productOrder",
+      "item": [
+        null,
+        null
+      ],
+      "event": []
+    },
+    null,
+    {
+      "id": "a705171d-7733-4bab-8ae3-365f7d54dad4",
+      "name": "listener",
+      "item": [
+        {
+          "id": "c7adb421-c4d0-45da-8ffc-c1f0ac34c0de",
+          "name": "State Change Event By Client",
+          "request": {
+            "name": "State Change Event By Client",
+            "description": {},
+            "url": {
+              "path": [
+                "listener",
+                "productOrderStateChangeEvent"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"issue\": {\n                \"issue\": {\n                    \"code\": {\n                        \"code\": \"{{code}}\"\n                    },\n                    \"description\": {\n                        \"description\": \"{{description}}\"\n                    },\n                    \"type\": \"{{type}}\",\n                    \"observation\": \"{{observation}}\",\n                    \"updateDate\": \"{{updateDate}}\",\n                    \"action\": \"{{action}}\",\n                    \"task\": \"{{task}}\",\n                    \"fieldActivity\": \"{{fieldActivity}}\",\n                    \"reason\": \"{{reason}}\"\n                }\n            },\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"resource\": {\n                    \"gponAccess\": \"{{gponAccess}}\",\n                    \"devices\": {\n                        \"device\": \"{{device}}\"\n                    },\n                    \"fiberPath\": {\n                        \"items\": {\n                            \"item\": \"{{item}}\"\n                        }\n                    }\n                }\n            }\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "d9113422-44c5-4d55-9de7-b184cb0f3c46",
+              "name": "Operação realizada com sucesso",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "No Content",
+              "code": 204,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "839e81e9-568a-4f2c-bfd4-72ca8c0dc601",
+              "name": "BadRequest",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "1c2f3a6e-16e9-426d-9f08-0021ae1264b9",
+              "name": "Unauthorized",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Unauthorized",
+              "code": 401,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "4b2ef97d-d298-4e24-995d-61f8a8b6b7f9",
+              "name": "ServerError",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "ed1ba894-c842-4b59-916b-10627f1b9518",
+              "name": "Unavailable",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Service Unavailable",
+              "code": 503,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "1b463a04-26fb-45e6-bf6d-a6182db761ff",
+              "name": "Timeout",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Gateway Timeout",
+              "code": 504,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test orderapi-restassured using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for /listener/productOrderStateChangeEvent for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    responseData = xml2Json(responseBody);\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n  pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 204){\n    pm.test(\"Operação realizada com sucesso\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"No Content\");});\n}\n\nif (pm.response.code == 400){\n    pm.test(\"BadRequest\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Bad Request\");});\n}\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");});\n}\n\nif (pm.response.code == 500){\n    pm.test(\"ServerError\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");});\n}\n\nif (pm.response.code == 503){\n    pm.test(\"Unavailable\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");});\n}\n\nif (pm.response.code == 504){\n    pm.test(\"Timeout\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");});\n}\n"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "X-Username"
+      },
+      {
+        "key": "value",
+        "value": "{{apiKey}}"
+      },
+      {
+        "key": "in",
+        "value": "header"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "f8a9b86f-52d3-493f-9692-b198b86ab2ea",
+    "name": "ProductOrdering",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}
