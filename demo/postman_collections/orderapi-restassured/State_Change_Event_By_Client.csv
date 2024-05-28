@@ -1,0 +1,7 @@
+date,subscriberId,id,correlationOrder,associatedDocument,code,description,type,observation,updateDate,action,task,fieldActivity,reason,lostEquipment,gponAccess,device,item,statusCode,scenario
+"2020-12-16T10:09:31-03:00","234567654","20230315000001","10","VTT001","0","Ordem encerrada com sucesso.","Encerramento","","","","","","","True","A000009QS","","",204,"Operação realizada com sucesso"
+"2021-09-29T18:42:24.641-03:00","234567654","20230315000001","10","VTT001","2","Ordem cancelada","Cancelamento","","","","","","","False","","","",400,"BadRequest"
+"2021-10-26T17:53:25.497-03:00","234567654","20230315000001","10","VTT001","-1","O Equipamento já está em uso por outro cliente","Encerramento","","","","","","","True","","","",401,"Unauthorized"
+"2022-12-26T12:15:35.174-03:00","234567654","20230315000001","10","VTT001","0","BA de campo encerrado com sucesso","Encerramento","","","","","","","False","A000009QS","","",500,"ServerError"
+"2020-12-16T10:09:31-03:00","234567654","20230315000001","10","VTT001","0","Ordem encerrada com sucesso.","Encerramento","","","","","","","True","A000009QS","","",503,"Unavailable"
+"2021-09-29T18:42:24.641-03:00","234567654","20230315000001","10","VTT001","2","Ordem cancelada","Cancelamento","","","","","","","False","","","",504,"Timeout"
