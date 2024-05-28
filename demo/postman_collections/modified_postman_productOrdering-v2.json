@@ -1,0 +1,403 @@
+{
+  "item": [
+    {
+      "id": "d557d86d-49af-436d-9254-2e8308ceb1fd",
+      "name": "productOrder",
+      "item": [
+        null,
+        null
+      ],
+      "event": []
+    },
+    null,
+    {
+      "id": "39c5ccaa-bc79-4714-b172-475682ea29b4",
+      "name": "listener",
+      "item": [
+        {
+          "id": "22cfe79b-9422-4b2a-af34-d2c8937dcd0b",
+          "name": "State Change Event By Client",
+          "request": {
+            "name": "State Change Event By Client",
+            "description": {},
+            "url": {
+              "path": [
+                "listener",
+                "productOrderStateChangeEvent"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"issue\": {\n                \"issue\": {\n                    \"code\": {\n                        \"code\": \"{{code}}\"\n                    },\n                    \"description\": {\n                        \"description\": \"{{description}}\"\n                    },\n                    \"type\": \"{{type}}\",\n                    \"observation\": \"{{observation}}\",\n                    \"updateDate\": \"{{updateDate}}\",\n                    \"action\": \"{{action}}\",\n                    \"task\": \"{{task}}\",\n                    \"fieldActivity\": \"{{fieldActivity}}\",\n                    \"reason\": \"{{reason}}\"\n                }\n            },\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"resource\": {\n                    \"gponAccess\": \"{{gponAccess}}\",\n                    \"devices\": {\n                        \"device\": \"{{device}}\"\n                    },\n                    \"fiberPath\": {\n                        \"items\": {\n                            \"item\": \"{{item}}\"\n                        }\n                    }\n                }\n            }\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "cf997bb5-ebce-4fee-8920-379f0846c42a",
+              "name": "Operação realizada com sucesso",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "No Content",
+              "code": 204,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "54a5c0a0-a00e-4753-ad95-473c7fc9b847",
+              "name": "BadRequest",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "3a69e78e-b994-4f48-adc2-20c60c662c6a",
+              "name": "Unauthorized",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Unauthorized",
+              "code": 401,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "8f75ae91-b52b-4084-a6fb-d306a110e871",
+              "name": "ServerError",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "d4addd28-2f8e-4463-a415-0233b316e59b",
+              "name": "Unavailable",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Service Unavailable",
+              "code": 503,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "604830a4-dfaa-473c-89a1-89b82afbc7e1",
+              "name": "Timeout",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "listener",
+                    "productOrderStateChangeEvent"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "X-Username",
+                    "value": "{{X-Username}}"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"notification\": {\n        \"date\": \"{{date}}\",\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        },\n        \"order\": {\n            \"id\": \"{{id}}\",\n            \"correlationOrder\": \"{{correlationOrder}}\",\n            \"associatedDocument\": \"{{associatedDocument}}\",\n            \"type\": \"{{type}}\",\n            \"code\": \"{{code}}\",\n            \"description\": \"{{description}}\",\n            \"lostEquipment\": \"{{lostEquipment}}\",\n            \"resource\": {\n                \"gponAccess\": \"{{gponAccess}}\",\n                \"fiberPath\": {\n                    \"items\": {\n                        \"item\": \"{{item}}\"\n                    }\n                }\n            }\n        }\n    }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "Gateway Timeout",
+              "code": 504,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  " \n        // ********RoostGPT********\n/*\nTest generated by RoostGPT for test orderapi-restassured using AI Type Open AI and AI Model gpt-4\n\n\nTest generated for /listener/productOrderStateChangeEvent for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n        let responseData;\n        const contentType = pm.response.headers.get('Content-Type');\n        if(contentType === \"application/xml\"){\n            responseData = xml2Json(responseBody);\n        } else{\n            responseData = pm.response.json();\n        }\n        if (pm.variables.get(\"statusCode\")) {\n          // Compare the statusCode variable with the response code for assertion\n          pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n        }\n\n        // let responseTime = 800\n        // pm.expect(pm.response.responseTime).to.be.below(responseTime);\n        \nif (pm.response.code == 204){\n    pm.test(\"Operação realizada com sucesso\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"No Content\");});\n}\n\nif (pm.response.code == 400){\n    pm.test(\"BadRequest\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `type` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`type`)){\n          if(pm.expect(_.get(responseData[0], `type`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `type`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `type` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n          if(pm.expect(_.get(pm.response.json(), `type`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('type to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n          pm.expect(_.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `message.Yash` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`message.Yash`)){\n          if(pm.expect(_.get(responseData[0], `message.Yash`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `message.Yash`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `message.Yash` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`message.Yash`)){\n          if(pm.expect(_.get(pm.response.json(), `message.Yash`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `message.Yash`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('message.Yash to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"message.Yash\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('message.Yash length to be atmost `1`',function(){\n          pm.expect(_.get(responseData, \"message.Yash\", \"\").length).to.be.at.most(1);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`code`)){\n          if(pm.expect(_.get(responseData[0], `code`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `code`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n          if(pm.expect(_.get(pm.response.json(), `code`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n  \n        pm.test('code length to be atmost `3`',function(){\n          pm.expect(_.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n});\n}\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `type` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`type`)){\n          if(pm.expect(_.get(responseData[0], `type`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `type`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `type` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n          if(pm.expect(_.get(pm.response.json(), `type`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('type to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n          pm.expect(_.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `message.Yash` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`message.Yash`)){\n          if(pm.expect(_.get(responseData[0], `message.Yash`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `message.Yash`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `message.Yash` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`message.Yash`)){\n          if(pm.expect(_.get(pm.response.json(), `message.Yash`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `message.Yash`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('message.Yash to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"message.Yash\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('message.Yash length to be atmost `1`',function(){\n          pm.expect(_.get(responseData, \"message.Yash\", \"\").length).to.be.at.most(1);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`code`)){\n          if(pm.expect(_.get(responseData[0], `code`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `code`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n          if(pm.expect(_.get(pm.response.json(), `code`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n  \n        pm.test('code length to be atmost `3`',function(){\n          pm.expect(_.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n});\n}\n\nif (pm.response.code == 500){\n    pm.test(\"ServerError\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `type` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`type`)){\n          if(pm.expect(_.get(responseData[0], `type`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `type`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `type` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n          if(pm.expect(_.get(pm.response.json(), `type`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('type to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n          pm.expect(_.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `message.Yash` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`message.Yash`)){\n          if(pm.expect(_.get(responseData[0], `message.Yash`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `message.Yash`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `message.Yash` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`message.Yash`)){\n          if(pm.expect(_.get(pm.response.json(), `message.Yash`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `message.Yash`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('message.Yash to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"message.Yash\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('message.Yash length to be atmost `1`',function(){\n          pm.expect(_.get(responseData, \"message.Yash\", \"\").length).to.be.at.most(1);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`code`)){\n          if(pm.expect(_.get(responseData[0], `code`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `code`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n          if(pm.expect(_.get(pm.response.json(), `code`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n  \n        pm.test('code length to be atmost `3`',function(){\n          pm.expect(_.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n});\n}\n\nif (pm.response.code == 503){\n    pm.test(\"Unavailable\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `type` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`type`)){\n          if(pm.expect(_.get(responseData[0], `type`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `type`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `type` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n          if(pm.expect(_.get(pm.response.json(), `type`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('type to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n          pm.expect(_.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `message.Yash` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`message.Yash`)){\n          if(pm.expect(_.get(responseData[0], `message.Yash`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `message.Yash`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `message.Yash` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`message.Yash`)){\n          if(pm.expect(_.get(pm.response.json(), `message.Yash`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `message.Yash`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('message.Yash to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"message.Yash\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('message.Yash length to be atmost `1`',function(){\n          pm.expect(_.get(responseData, \"message.Yash\", \"\").length).to.be.at.most(1);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`code`)){\n          if(pm.expect(_.get(responseData[0], `code`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `code`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n          if(pm.expect(_.get(pm.response.json(), `code`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n  \n        pm.test('code length to be atmost `3`',function(){\n          pm.expect(_.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n});\n}\n\nif (pm.response.code == 504){\n    pm.test(\"Timeout\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `type` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`type`)){\n          if(pm.expect(_.get(responseData[0], `type`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `type`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `type` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n          if(pm.expect(_.get(pm.response.json(), `type`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('type to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n          pm.expect(_.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `message.Yash` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`message.Yash`)){\n          if(pm.expect(_.get(responseData[0], `message.Yash`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `message.Yash`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `message.Yash` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`message.Yash`)){\n          if(pm.expect(_.get(pm.response.json(), `message.Yash`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `message.Yash`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n \n        pm.test('message.Yash to be one of enum', function(){ \n          pm.expect(_.get(responseData, \"message.Yash\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('message.Yash length to be atmost `1`',function(){\n          pm.expect(_.get(responseData, \"message.Yash\", \"\").length).to.be.at.most(1);\n        })\n\n    if(Array.isArray(responseData)) {\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(responseData[0]).to.have.nested.property(`code`)){\n          if(pm.expect(_.get(responseData[0], `code`, null)).to.exist){\n            pm.expect(typeof _.get(responseData[0], `code`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    } else {\n      pm.test('Response has the `code` field',function(){\n        if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n          if(pm.expect(_.get(pm.response.json(), `code`, null)).to.exist){\n            pm.expect(typeof _.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n          }\n        }\n\n      })\n    }\n  \n        pm.test('code length to be atmost `3`',function(){\n          pm.expect(_.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n});\n}\n"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        null,
+        null,
+        null
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "X-Username"
+      },
+      {
+        "key": "value",
+        "value": "{{apiKey}}"
+      },
+      {
+        "key": "in",
+        "value": "header"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "af06af1f-4ec5-42ad-975f-b80c51f72044",
+    "name": "ProductOrdering",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}
