@@ -1,0 +1,11 @@
+appointmentId^|^AdditionalCSVvaluInfo^|^appointmentReason^|^appointmentComments^|^RequestBody^|^statusCode
+AID123456789^|^SA-562403^|^Routine Checkup^|^Need to discuss health issues^|^{"userId": "U123", "date": "2022-01-01", "time": "15:00"}^|^200
+AID987654321^|^SA-562403^|^Follow-up Visit^|^Discuss test results^|^{"userId": "U456", "date": "2022-01-15", "time": "10:00"}^|^200
+AID246813579^|^SA-562403^|^Annual Physical^|^General wellness check^|^{"userId": "U789", "date": "2022-02-01", "time": "14:00"}^|^200
+AID135792468^|^SA-562403^|^Immunization^|^Flu shot appointment^|^{"userId": "U321", "date": "2022-02-15", "time": "09:00"}^|^200
+AID864209753^|^SA-562403^|^New Patient Visit^|^First visit to the clinic^|^{"userId": "U654", "date": "2022-03-01", "time": "13:00"}^|^200
+AID753159482^|^SA-562403^|^Consultation^|^Seeking advice for healthy diet^|^{"userId": "U987", "date": "2022-03-15", "time": "11:00"}^|^200
+AID159357486^|^SA-562403^|^Eye Exam^|^Routine eye checkup^|^{"userId": "U369", "date": "2022-04-01", "time": "16:00"}^|^200
+AID753951824^|^SA-562403^|^Dental Checkup^|^Routine dental cleaning^|^{"userId": "U147", "date": "2022-04-15", "time": "10:00"}^|^200
+AID951753826^|^SA-562403^|^Physical Therapy^|^Regular therapy session^|^{"userId": "U258", "date": "2022-05-01", "time": "14:00"}^|^200
+AID357951486^|^SA-562403^|^Mental Health Visit^|^Discussing mental health issues^|^{"userId": "U369", "date": "2022-05-15", "time": "13:00"}^|^200
