@@ -1,0 +1,7 @@
+date,subscriberId,id,correlationOrder,associatedDocument,code.code,description.description,type,observation,updateDate,action,task,fieldActivity,reason,order.type,order.code,order.description,lostEquipment,gponAccess,device,item,statusCode,scenario
+"2022-01-01","SVTAL001","12345","10","VTT001","","","Instalacao","","2022-01-01","adicionar",{},"","","Instalacao","","","True","","","","204","Operação realizada com sucesso"
+"2022-01-02","SVTAL002","12346","11","VTT002","","","Retirada","","2022-01-02","remover",{},"","","Retirada","","","False","","","","400","BadRequest"
+"2022-01-03","SVTAL003","12347","12","VTT003","","","Bloqueio","","2022-01-03","bloquear total",{},"","","Bloqueio","","","True","","","","401","Unauthorized"
+"2022-01-04","SVTAL004","12348","13","VTT004","","","Desbloqueio","","2022-01-04","desbloquear total",{},"","","Desbloqueio","","","False","","","","500","ServerError"
+"2022-01-05","SVTAL005","12349","14","VTT005","","","AssociarCPE","","2022-01-05","adicionar",{},"","","AssociarCPE","","","True","","","","503","Unavailable"
+"2022-01-06","SVTAL006","12350","15","VTT006","","","Modificacao de Velocidade","","2022-01-06","adicionar",{},"","","Modificacao de Velocidade","","","False","","","","504","Timeout"
