@@ -1,0 +1,7 @@
+date,subscriberId,id,correlationOrder,associatedDocument,code.code,description.description,type,observation,updateDate,action,task,fieldActivity,reason,order.type,order.code,order.description,lostEquipment,gponAccess,device,item,statusCode,scenario
+"2021-06-09T18:20:53-03:00","SVTAL001","14393","9","VTT001"," "," ","Instalacao"," ","2021-06-09T18:20:53-03:00","adicionar",{}," "," ","Instalacao"," "," ","False"," "," "," ",204,"Success"
+"2021-06-09T18:20:53-03:00","SVTAL001","14393","9","VTT001"," "," ","Retirada"," ","2021-06-09T18:20:53-03:00","remover",{}," "," ","Retirada"," "," ","False"," "," "," ",400,"BadRequest"
+"2021-06-09T18:20:53-03:00","SVTAL001","14393","9","VTT001"," "," ","Bloqueio"," ","2021-06-09T18:20:53-03:00","bloquear total",{}," "," ","Bloqueio"," "," ","False"," "," "," ",401,"Unauthorized"
+"2021-06-09T18:20:53-03:00","SVTAL001","14393","9","VTT001"," "," ","Desbloqueio"," ","2021-06-09T18:20:53-03:00","desbloquear total",{}," "," ","Desbloqueio"," "," ","False"," "," "," ",500,"ServerError"
+"2021-06-09T18:20:53-03:00","SVTAL001","14393","9","VTT001"," "," ","AssociarCPE"," ","2021-06-09T18:20:53-03:00","adicionar",{}," "," ","AssociarCPE"," "," ","False"," "," "," ",503,"Unavailable"
+"2021-06-09T18:20:53-03:00","SVTAL001","14393","9","VTT001"," "," ","Modificacao de Velocidade"," ","2021-06-09T18:20:53-03:00","adicionar",{}," "," ","Modificacao de Velocidade"," "," ","False"," "," "," ",504,"Timeout"
