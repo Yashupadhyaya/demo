@@ -1,0 +1,8 @@
+date,subscriberId,id,correlationOrder,associatedDocument,code.code,description.description,type,observation,updateDate,action,task,fieldActivity,reason,order.type,order.code,order.description,lostEquipment,gponAccess,device,item,statusCode,scenario
+2021-06-09T18:20:53-03:00,SVTAL001,14393,10,VTT001,NA,NA,Instalacao,NA,2021-06-09T18:20:53-03:00,adicionar,NA,NA,NA,Instalacao,NA,NA,False,NA,NA,NA,204,Operação realizada com sucesso
+2021-06-09T18:20:53-03:00,SVTAL001,14393,10,VTT001,NA,NA,Retirada,NA,2021-06-09T18:20:53-03:00,remover,NA,NA,NA,Retirada,NA,NA,False,NA,NA,NA,400,BadRequest
+2021-06-09T18:20:53-03:00,SVTAL001,14393,10,VTT001,NA,NA,Bloqueio,NA,2021-06-09T18:20:53-03:00,bloquear total,NA,NA,NA,Bloqueio,NA,NA,False,NA,NA,NA,401,Unauthorized
+2021-06-09T18:20:53-03:00,SVTAL001,14393,10,VTT001,NA,NA,Desbloqueio,NA,2021-06-09T18:20:53-03:00,desbloquear total,NA,NA,NA,Desbloqueio,NA,NA,False,NA,NA,NA,500,ServerError
+2021-06-09T18:20:53-03:00,SVTAL001,14393,10,VTT001,NA,NA,AssociarCPE,NA,2021-06-09T18:20:53-03:00,adicionar,NA,NA,NA,AssociarCPE,NA,NA,False,NA,NA,NA,503,Unavailable
+2021-06-09T18:20:53-03:00,SVTAL001,14393,10,VTT001,NA,NA,Modificacao de Velocidade,NA,2021-06-09T18:20:53-03:00,adicionar,NA,NA,NA,Modificacao de Velocidade,NA,NA,False,NA,NA,NA,504,Timeout
+2021-06-09T18:20:53-03:00,SVTAL001,14393,10,VTT001,NA,NA,RemanejamentoPonto,NA,2021-06-09T18:20:53-03:00,NA,NA,NA,NA,RemanejamentoPonto,NA,NA,False,NA,NA,NA,204,Operação realizada com sucesso
