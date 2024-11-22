@@ -1,0 +1,7 @@
+date,subscriberId,id,correlationOrder,associatedDocument,code,description,type,observation,updateDate,action,task,fieldActivity,reason,lostEquipment,gponAccess,device,item,statusCode,scenario
+2021-06-10,SVTAL001,1,10,VTT001,616551,Successful Operation,Instalacao,Successful installation,2021-06-09,Adicionar,Task1,Field Activity 1,Reason 1,Lost Equipment 1,Gpon Access 1,Device 1,Item 1,204,Success
+2021-06-10,SVTAL002,2,11,VTT001,616551,Invalid Operation,Retirada,Failed Removal,2021-06-09,Remover,Task2,Field Activity 2,Reason 2,Lost Equipment 2,Gpon Access 2,Device 2,Item 2,400,BadRequest
+2021-06-10,SVTAL003,3,12,VTT001,616551,Unauthorized Operation,Desbloqueio,Unauthorized Unblock,2021-06-09,Desbloquear,Task3,Field Activity 3,Reason 3,Lost Equipment 3,Gpon Access 3,Device 3,Item 3,401,Unauthorized
+2021-06-10,SVTAL004,4,13,VTT001,616551,ServerError Operation,AssociarCPE,Server Error,2021-06-09,Adicionar,Task4,Field Activity 4,Reason 4,Lost Equipment 4,Gpon Access 4,Device 4,Item 4,500,ServerError
+2021-06-10,SVTAL005,5,14,VTT001,616551,Unavailable Operation,Modificacao de Velocidade,Unavailable,2021-06-09,Adicionar,Task5,Field Activity 5,Reason 5,Lost Equipment 5,Gpon Access 5,Device 5,Item 5,503,Unavailable
+2021-06-10,SVTAL006,6,15,VTT001,616551,Timeout Operation,RemanejamentoPonto,Timeout,2021-06-09,Adicionar,Task6,Field Activity 6,Reason 6,Lost Equipment 6,Gpon Access 6,Device 6,Item 6,504,Timeout
