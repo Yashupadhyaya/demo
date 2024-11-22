@@ -1,0 +1,11 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^http://example.com/api/v1/users^|^Content-Type: application/json^|^{"username":"user1","password":"pass1"}^|^200^|^{"message":"Success"}
+POST^|^http://example.com/api/v1/users^|^Content-Type: application/json^|^{"username":"user2","password":"pass2"}^|^201^|^{"message":"User created"}
+PUT^|^http://example.com/api/v1/users/user2^|^Content-Type: application/json^|^{"password":"pass3"}^|^200^|^{"message":"User updated"}
+DELETE^|^http://example.com/api/v1/users/user2^|^Content-Type: application/json^|^{}^|^204^|^{"message":"User deleted"}
+GET^|^http://example.com/api/v1/posts^|^Content-Type: application/json^|^{"postId":"post1"}^|^200^|^{"message":"Success"}
+POST^|^http://example.com/api/v1/posts^|^Content-Type: application/json^|^{"title":"post2","body":"body2"}^|^201^|^{"message":"Post created"}
+PUT^|^http://example.com/api/v1/posts/post2^|^Content-Type: application/json^|^{"title":"new title"}^|^200^|^{"message":"Post updated"}
+DELETE^|^http://example.com/api/v1/posts/post2^|^Content-Type: application/json^|^{}^|^204^|^{"message":"Post deleted"}
+GET^|^http://example.com/api/v1/comments^|^Content-Type: application/json^|^{"commentId":"comment1"}^|^200^|^{"message":"Success"}
+POST^|^http://example.com/api/v1/comments^|^Content-Type: application/json^|^{"text":"comment2"}^|^201^|^{"message":"Comment created"}
