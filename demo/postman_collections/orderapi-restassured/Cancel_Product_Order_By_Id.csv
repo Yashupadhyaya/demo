@@ -1,0 +1,12 @@
+order.Id,associatedDocument,subscriberId,statusCode,scenario
+"10","VTT001","SVTAL001",200,"Success"
+"11","VTT002","SVTAL002",400,"Bad Request"
+"12","VTT003","SVTAL003",401,"Unauthorized"
+"13","VTT004","SVTAL004",403,"Forbidden - Scope Not Permitted"
+"14","VTT005","SVTAL005",404,"Not Found"
+"15","VTT006","SVTAL006",406,"Not Found"
+"16","VTT007","SVTAL007",423,"Locked"
+"17","VTT008","SVTAL008",429,"Too Many Requests - Exceeded Quota"
+"18","VTT009","SVTAL009",500,"Internal Server Error"
+"19","VTT010","SVTAL010",503,"Service Unavailable"
+"20","VTT011","SVTAL011",504,"Gateway Timeout"
