@@ -1,0 +1,11 @@
+order.Id^|^AdditionalCSVvaluInfo^|^order^|^correlationOrder^|^associatedDocument^|^associatedDocumentDate^|^type^|^infraType^|^customer^|^appointment^|^addresses^|^products^|^equipments^|^issue^|^orderItem^|^task^|^code^|^description^|^updateDate^|^action^|^statusCode
+1^|^Info1^|^Order1^|^CO1^|^AD1^|^2021-09-01^|^Type1^|^Infra1^|^Cust1^|^2021-09-02^|^Address1^|^Product1^|^Equip1^|^Issue1^|^Item1^|^Task1^|^Code1^|^Desc1^|^2021-09-03^|^Action1^|^Status1
+2^|^Info2^|^Order2^|^CO2^|^AD2^|^2021-09-04^|^Type2^|^Infra2^|^Cust2^|^2021-09-05^|^Address2^|^Product2^|^Equip2^|^Issue2^|^Item2^|^Task2^|^Code2^|^Desc2^|^2021-09-06^|^Action2^|^Status2
+3^|^Info3^|^Order3^|^CO3^|^AD3^|^2021-09-07^|^Type3^|^Infra3^|^Cust3^|^2021-09-08^|^Address3^|^Product3^|^Equip3^|^Issue3^|^Item3^|^Task3^|^Code3^|^Desc3^|^2021-09-09^|^Action3^|^Status3
+4^|^Info4^|^Order4^|^CO4^|^AD4^|^2021-09-10^|^Type4^|^Infra4^|^Cust4^|^2021-09-11^|^Address4^|^Product4^|^Equip4^|^Issue4^|^Item4^|^Task4^|^Code4^|^Desc4^|^2021-09-12^|^Action4^|^Status4
+5^|^Info5^|^Order5^|^CO5^|^AD5^|^2021-09-13^|^Type5^|^Infra5^|^Cust5^|^2021-09-14^|^Address5^|^Product5^|^Equip5^|^Issue5^|^Item5^|^Task5^|^Code5^|^Desc5^|^2021-09-15^|^Action5^|^Status5
+6^|^Info6^|^Order6^|^CO6^|^AD6^|^2021-09-16^|^Type6^|^Infra6^|^Cust6^|^2021-09-17^|^Address6^|^Product6^|^Equip6^|^Issue6^|^Item6^|^Task6^|^Code6^|^Desc6^|^2021-09-18^|^Action6^|^Status6
+7^|^Info7^|^Order7^|^CO7^|^AD7^|^2021-09-19^|^Type7^|^Infra7^|^Cust7^|^2021-09-20^|^Address7^|^Product7^|^Equip7^|^Issue7^|^Item7^|^Task7^|^Code7^|^Desc7^|^2021-09-21^|^Action7^|^Status7
+8^|^Info8^|^Order8^|^CO8^|^AD8^|^2021-09-22^|^Type8^|^Infra8^|^Cust8^|^2021-09-23^|^Address8^|^Product8^|^Equip8^|^Issue8^|^Item8^|^Task8^|^Code8^|^Desc8^|^2021-09-24^|^Action8^|^Status8
+9^|^Info9^|^Order9^|^CO9^|^AD9^|^2021-09-25^|^Type9^|^Infra9^|^Cust9^|^2021-09-26^|^Address9^|^Product9^|^Equip9^|^Issue9^|^Item9^|^Task9^|^Code9^|^Desc9^|^2021-09-27^|^Action9^|^Status9
+10^|^Info10^|^Order10^|^CO10^|^AD10^|^2021-09-28^|^Type10^|^Infra10^|^Cust10^|^2021-09-29^|^Address10^|^Product10^|^Equip10^|^Issue10^|^Item10^|^Task10^|^Code10^|^Desc10^|^2021-09-30^|^Action10^|^Status10

@@ -1,0 +1,11 @@
+order.Id^|^AdditionalCSVvaluInfo^|^order^|^associatedDocument^|^customer^|^subscriberId^|^statusCode
+1^|^Info1^|^Order1^|^Doc1^|^Customer1^|^Sub1^|^200
+2^|^Info2^|^Order2^|^Doc2^|^Customer2^|^Sub2^|^201
+3^|^Info3^|^Order3^|^Doc3^|^Customer3^|^Sub3^|^202
+4^|^Info4^|^Order4^|^Doc4^|^Customer4^|^Sub4^|^203
+5^|^Info5^|^Order5^|^Doc5^|^Customer5^|^Sub5^|^204
+6^|^Info6^|^Order6^|^Doc6^|^Customer6^|^Sub6^|^205
+7^|^Info7^|^Order7^|^Doc7^|^Customer7^|^Sub7^|^206
+8^|^Info8^|^Order8^|^Doc8^|^Customer8^|^Sub8^|^207
+9^|^Info9^|^Order9^|^Doc9^|^Customer9^|^Sub9^|^208
+10^|^Info10^|^Order10^|^Doc10^|^Customer10^|^Sub10^|^209
