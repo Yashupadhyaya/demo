@@ -1,0 +1,11 @@
+order.Id^|^AdditionalCSVvaluInfo^|^RequestBody^|^statusCode
+ORD123^|^20230315000001^|^{"order": {"associatedDocument": "DOC123", "customer": {"subscriberId": "SUB001"}}}^|^200
+ORD124^|^20230315000002^|^{"order": {"associatedDocument": "DOC124", "customer": {"subscriberId": "SUB002"}}}^|^400
+ORD125^|^20230315000003^|^{"order": {"associatedDocument": "DOC125", "customer": {"subscriberId": "SUB003"}}}^|^401
+ORD126^|^20230315000004^|^{"order": {"associatedDocument": "DOC126", "customer": {"subscriberId": "SUB004"}}}^|^403
+ORD127^|^20230315000005^|^{"order": {"associatedDocument": "DOC127", "customer": {"subscriberId": "SUB005"}}}^|^404
+ORD128^|^20230315000006^|^{"order": {"associatedDocument": "DOC128", "customer": {"subscriberId": "SUB006"}}}^|^406
+ORD129^|^20230315000007^|^{"order": {"associatedDocument": "DOC129", "customer": {"subscriberId": "SUB007"}}}^|^423
+ORD130^|^20230315000008^|^{"order": {"associatedDocument": "DOC130", "customer": {"subscriberId": "SUB008"}}}^|^429
+ORD131^|^20230315000009^|^{"order": {"associatedDocument": "DOC131", "customer": {"subscriberId": "SUB009"}}}^|^500
+ORD132^|^20230315000010^|^{"order": {"associatedDocument": "DOC132", "customer": {"subscriberId": "SUB010"}}}^|^503
