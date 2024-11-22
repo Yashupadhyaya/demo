@@ -1,0 +1,47 @@
+{
+  "item": [
+    {
+      "id": "3cf5722c-eecc-4e08-a3cb-a4d2e0286129",
+      "name": "productOrder",
+      "item": [
+        null,
+        null
+      ],
+      "event": []
+    },
+    null,
+    {
+      "id": "9d8b083a-3bd3-4111-b5b9-25481e955672",
+      "name": "listener",
+      "item": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "9ea8a293-c69e-4790-9ca1-45579a6d01b4",
+    "name": "ProductOrdering",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}
